@@ -1,0 +1,9 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-image: "/images/outerspace_landscape.jpg";
+}
+
+a {
+  text-decoration: none;
+}
