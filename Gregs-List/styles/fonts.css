@@ -1,0 +1,22 @@
+p {
+	font-family: arial;
+	font-size: 14px;
+}
+
+.date {
+	font-family: arial;
+	font-size: 14px;
+	color: grey;
+}
+
+.title {
+	font-family: arial;
+	font-size: 16px;
+	color: blue ;
+}
+
+.location {
+	font-family: arial;
+	font-size: 16px;
+	color: grey;
+}

@@ -1,0 +1,198 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+
+header {
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	
+	background-color: #eeeeee;
+	border-bottom: solid thin #b2b2b2;
+}
+
+
+header .logo {
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: text-top;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+
+header .nav {
+ 	position: absolute;
+ 	right: 10px;
+ 	top: 10px;
+ 	font-size: 18px;
+ 	margin-right: 10px;
+ }
+
+
+body {
+	background-color: #ffffff;
+	padding: 70px;
+}
+
+
+ul nav {
+	list-style-type: none;
+	width: auto;
+}
+
+
+li {
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	padding-right: 20px;
+}
+
+
+li a {
+	color: purple;
+}
+
+
+input {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding-left: 10px;
+	height: 35px;
+	width: 400px;
+	
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+}
+
+
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+
+h2	{
+	font-family: arial;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+
+p {
+	color: grey
+	font-size: 16px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+.search-container {
+	margin-bottom: 40px;
+	width: auto;
+}
+
+
+.page-container {
+	font-size: 0;
+	border-radius: 3px;
+  	margin-bottom: 40px;
+}
+
+
+.results-container {
+	margin-bottom: 40px;
+}
+
+
+.icon {
+	height: 35px;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	vertical-align: bottom;
+	padding: 5px;
+}
+
+
+.listing {
+	padding: 0;
+
+}
+
+
+.listings {
+	list-style: none;
+	display: block;
+	line-height: 35px;
+ }
+
+
+.prev {	
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	
+	border: 1px solid #DDDDDD;
+	font-size: 18px;
+}
+
+
+.pages {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	border-radius: 0px;
+	border: 1px solid #DDDDDD;
+		
+	font-size: 18px;
+}
+
+.next {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+
+	border: 1px solid #DDDDDD;
+	font-size: 18px;
+}
+
+
+.date {
+	font-family: arial;
+	font-size: 16px;
+	color: grey;
+}
+
+
+.title {
+	font-family: arial;
+	font-size: 18px;
+	color: blue ;
+	font-weight: bolder;
+}
+
+
+.location {
+	font-family: arial;
+	font-size: 16px;
+	color: grey;
+}

@@ -1,0 +1,176 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #3f94e7;
+}
+
+
+header {
+	width: 100%;
+	margin: auto;
+	padding: 40px;
+}
+
+
+input {
+	width: 320px;
+	padding: 15px;
+	
+	border-radius: 3px;
+	border: 2px solid #e7e7e7;
+}
+
+
+label {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+a {
+	text-decoration: underline;
+}
+
+
+.button {
+	width: 320px;
+	height: 55px;
+	line-height: 10px;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	border: 2px solid #65c470;
+	background-color: #65c470;
+}
+
+
+.button:hover {
+	background-color: #479450;
+}
+
+
+.container {
+	padding: 40px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-color: white;
+	border-radius: 5px;
+}
+
+
+.email {
+	font-family: arial;
+	font-size: 14px;
+}
+
+
+.logo {
+	display: block;
+	margin: auto;
+	height: 35px;
+
+}
+
+
+.password {
+	font-family: arial;
+	font-size: 14px;
+}
+
+
+.signup {
+	text-align: center;
+	font-family: arial;
+	font-size: 34px;
+	font-weight: lighter;
+
+	padding-bottom: 20px;
+	margin-top: 5px;
+	
+
+	color: #565656;
+}
+
+
+.signup-white {
+	text-align: center;
+	font-family: arial;
+	font-size: 24px;
+
+	
+	color: #ffffff;
+}
+
+
+.forgot {
+	display: block;
+	text-align: center;
+	margin: auto;
+	font-size: 14px;
+}
+
+
+footer {
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+fieldset {
+	padding: 40px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-color: white;
+	border: 0;
+}
+
+/* font controls */
+
+.white {
+	color: white;
+}
+
+
+.bold {
+	font-weight: bolder;
+}
+
+.grey {
+	color: grey;
+}
+
+
+.arial {
+	font-family: arial;
+}
+
+
+/* unvisited link */
+.forgot a:link {
+    color: #a39a99;
+}
+
+/* visited link */
+.forgot a:visited {
+    color: #a39a99;
+}
+
+/* mouse over link */
+.forgot a:hover {
+    color: #7b7473;
+}
+
+/* selected link */
+.forgot a:active {
+    color: #a39a99;
+}
+

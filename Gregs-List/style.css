@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0px;
+	background-color: #FF0004;
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.main-nav {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.nav-link {
+	font-size: 18px;
+	padding: 0 6px;
+}
+
+.gl-logo {
+	display: inline-block;
+	font-weight: 800;
+}
+
