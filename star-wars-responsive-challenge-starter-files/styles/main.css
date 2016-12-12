@@ -24,9 +24,9 @@ header h1 {
 
 
 header h2 {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: lighter;
-	line-height: 10px;
+	line-height: 12px;
 
 	padding-bottom: 10px;
 }
@@ -73,7 +73,9 @@ p {
 	font-size: 14px;
 }
 
-
+.margin {
+	margin-top: 130px;
+}
 
 
 
