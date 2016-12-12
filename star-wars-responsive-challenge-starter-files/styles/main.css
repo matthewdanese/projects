@@ -4,34 +4,45 @@ header {
 	left: 0;
 	right: 0;
 
-	background-color: orange;
+	background-color: #e8b952;
 	margin-bottom: 40px;
 }
+
 
 header .logo {
 
 }
 
+
 header h1 {
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: bold;
+	line-height: 10px;
+
+	padding-top: 10px;
 }
 
 
 header h2 {
 	font-size: 14px;
-	padding: 10px;
+	font-weight: lighter;
+	line-height: 10px;
+
+	padding-bottom: 10px;
 }
+
 
 body {
 	font-family: "Roboto", sans-serif;
 	color: #252525;
 }
 
+
 p {
 	font-size: 12px;
 	padding: 10px;
 }
+
 
 .card {
   border: 1px solid #E5E5E5;
@@ -45,14 +56,20 @@ p {
 
 
 .card h2 {
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 10px;
+	
+	line-height: 10px;
 	font-size: 18px;
 }
 
+
 .card p {
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 0px;
+	
 	font-size: 14px;
 }
 
